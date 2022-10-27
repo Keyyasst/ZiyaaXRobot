@@ -82,13 +82,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
-────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-────────────────────────
-✪ Hit /help to see my available commands.
+(https://telegra.ph/file/eae99ea6baabaa5e634ff.jpg)
+*Hello {} !* Nama saya ZiyaaXRobot.
+
+ZiyaaXRobot merupakan bot manage dan musik.
+
+• Jangan ragu untuk menambahkan saya kegroupmu.
+• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
+• Developed With By : @zypiya
 """
 
 buttons = [
@@ -103,7 +104,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ Tambahkan ZiyaaXRobot Ke Grup➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
