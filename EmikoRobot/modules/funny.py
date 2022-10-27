@@ -14,5 +14,4 @@ from EmikoRobot import telethn as tbot
 async def awake(event):
   TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), RAIMU KOYOK KONTOL.** \n\n"
   TEXT = f"**NGOPO LENG?,RA TERIMO??"
-  BUTTON = [[Button.url("Help", "https://t.me/amanqss?start=help"), Button.url("KONTOL", "https://xnxx.com)]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
+  await tbot.send_file(event.chat_id, PHOTO, caption=TEXT)
