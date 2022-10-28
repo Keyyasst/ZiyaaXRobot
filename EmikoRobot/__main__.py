@@ -83,13 +83,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-*Hello {} !* Nama saya ZiyaaXRobot.[✨](https://telegra.ph/file/eae99ea6baabaa5e634ff.jpg)
-
-ZiyaaXRobot merupakan bot manage dan musik.
-
-• Jangan ragu untuk menambahkan saya kegroupmu.
-• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
-• Developed With By : @zypiya
+*Hello {} !*
+✪ I'm an ZiyaaXrobot management bot [✨](https://telegra.ph/file/eae99ea6baabaa5e634ff.jpg)
+────────────────────────
+× *Uptime:* `{}`
+× `{}` *users, across* `{}` *chats.*
+────────────────────────
+✪ Hit /help to see my available commands.
 """
 
 buttons = [
